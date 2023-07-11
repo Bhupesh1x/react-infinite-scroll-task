@@ -1,9 +1,8 @@
+import React from "react";
+import PhotoGalleryFeed from "./components/PhotoGalleryFeed";
+
 function App() {
-  return (
-    <div>
-      <h1 className="text-red-300">Hello world!</h1>
-    </div>
-  );
+  return <PhotoGalleryFeed />;
 }
 
 export default App;
